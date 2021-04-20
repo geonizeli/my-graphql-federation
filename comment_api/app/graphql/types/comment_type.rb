@@ -3,6 +3,7 @@ module Types
     implements GraphQL::Types::Relay::Node
 
     global_id_field :id
+    global_id_field :article_id
 
     field :article_id, String, null: false
     field :authorship, String, null: false
